@@ -1,0 +1,166 @@
+version: 3
+domain: Automobile/Transportation
+created_by: sankapoo
+seed_examples:
+  - context: | 
+      This section covers common vehicle registration processes including new registration, change of address, inter‑state re‑registration, and transfer of ownership.
+    questions_and_answers:
+      - question: |
+          What is the procedure for new vehicle registration?
+        answer: |
+          The vehicle must be physically inspected at the Registering Authority’s office and the following documents submitted:
+          1. Form 20 duly filled.
+          2. Form 21 (Sale Certificate) from the dealer.
+          3. Copy of valid insurance policy.
+          4. Proof of address.
+          5. Form 34 (if financed).
+          6. Road‑tax payment receipt.
+          7. Prescribed registration fee.
+          8. Valid Fitness Certificate (if applicable).
+          9. PAN card or Form 60/61.
+      - question: |
+          How do I change the address on the Registration Certificate?
+        answer: |
+          Submit:
+          • Form 33  
+          • Original RC  
+          • Copy of valid insurance  
+          • New address proof  
+          • Valid PUCC  
+          • PAN card or Form 60/61  
+          If a hypothecation is endorsed, a No‑Objection Certificate from the financer is also required.
+      - question: |
+          What is the procedure to re‑register a vehicle brought from another state?
+        answer: |
+          Provide the original RC from the other state along with Forms 28, 27 and 20; address proof; valid insurance; PUCC; (for commercial vehicles) Fitness Certificate; road‑tax receipt; prescribed fee; PAN/Form 60/61.  
+          Note‑ Some states also require an NCRB clearance, arranged by the Transport Department.
+      - question: |
+          How is ownership transferred on a Registration Certificate?
+        answer: |
+          Apply at the Registering Authority where the vehicle is registered with:  
+          • Original RC  
+          • Form 29 (duplicate, one copy attested)  
+          • Form 30 (duplicate)  
+          • Copy of valid insurance  
+          • Purchaser’s address proof  
+          • PUCC copy  
+          • Prescribed fee  
+          • PAN card or Form 60/61
+  - context: |
+      This section explains transfer of ownership after the owner’s death and endorsement or deletion of hypothecation.
+    questions_and_answers:
+      - question: |
+          What documents are needed to transfer vehicle ownership after the registered owner’s death?
+        answer: |
+          • Original RC  
+          • Forms 30 & 31 (duplicate) with financier’s endorsement and NOC (if under hire‑purchase)  
+          • Death certificate of the owner  
+          • Succession/Legal‑heir certificate and affidavits relinquishing rights  
+          • Valid insurance, address proof, PUCC, PAN/Form 60/61  
+          • Vehicle verification on Form 20  
+          For commercial vehicles: permit surrender, challan clearance, tax clearance, Fitness Certificate
+      - question: |
+          How do I endorse hypothecation on the Registration Certificate?
+        answer: |
+          Submit:  
+          1. Original RC  
+          2. Two copies of Form 34  
+          3. Valid insurance copy  
+          4. Owner’s address proof  
+          5. PUCC copy  
+          6. Prescribed fee  
+          7. PAN card or Form 60/61
+      - question: |
+          What is the procedure to remove (delete) hypothecation from the Registration Certificate?
+        answer: |
+          Provide:  
+          • Original RC  
+          • Two copies of Form 35  
+          • Financier’s no‑dues certificate & NOC  
+          • Valid insurance, address proof, PUCC  
+          • Prescribed fee  
+          • PAN/Form 60/61
+  - context: |
+      This section covers No‑Objection Certificates, re‑registration after 15 years, and issue of duplicate Registration Certificates.
+    questions_and_answers:
+      - question: |
+          How can I obtain a No‑Objection Certificate (NOC) for another state?
+        answer: |
+          File Form 28 (4 copies) with:  
+          • Copy of RC  
+          • Evidence of up‑to‑date road‑tax payment or tax‑clearance certificate  
+          • Valid PUCC and insurance  
+          Issuance may be subject to NCRB clearance in some states.
+      - question: |
+          What is the procedure for re‑registration of a private vehicle after 15 years?
+        answer: |
+          Submit Form 25, original RC, proof of up‑to‑date road tax, insurance copy, PUCC, pay any tax dues, prescribed fee and PAN/Form 60/61. The vehicle must pass a fitness inspection at the Registering Authority’s office.
+      - question: |
+          How do I apply for a duplicate Registration Certificate?
+        answer: |
+          Provide Form 26 (duplicate, one copy attested with financier’s endorsement if hypothecated), original FIR/NCR, insurance copy, PUCC, address proof, prescribed fee, traffic challan clearance (for commercial vehicles), tax clearance, and PAN/Form 60/61.
+  - context: |
+      This section explains driving‑licence categories, fee structure, and conditions for foreign licence holders.
+    questions_and_answers:
+      - question: |
+          What are the different types of driving licences in India?
+        answer: |
+          **Commercial licences**  
+          • HPMV/HTV – Heavy passenger/transport vehicles  
+          • MGV – Medium goods vehicles  
+          • HGMV/HMV – Heavy goods/motor vehicles  
+          • Trailer – Heavy trailers  
+
+          **Personal licences**  
+          • LMV‑NT – Non‑transport light motor vehicles (car, jeep, etc.)  
+          • MC 50CC – Two‑wheelers up to 50cc  
+          • MC EX50CC – Two/three/four‑wheelers above 50cc  
+          • MCWOG/FVG – Gearless two‑wheelers  
+          • M/CYLG.WG – Two‑wheelers with gear
+      - question: |
+          What is the current fee structure for driving licences?
+        answer: |
+          • Permanent licence (issue/renewal) – ₹200  
+          • Duplicate licence for driving school – ₹5,000  
+          • Learner’s licence (issue/renewal) – ₹200  
+          • International Driving Permit – ₹1,000  
+          • Issuance & renewal of driving school licence – ₹10,000
+      - question: |
+          Can an NRI or foreigner drive in India using a foreign driving licence?
+        answer: |
+          No. A foreign licence alone is not valid. However, if the person holds an International Driving Permit (IDP) issued by a country that is a signatory to the 1949 Geneva Convention, he or she may drive the relevant class of vehicle in India for the validity period of the IDP.
+      - question: |
+          Who is eligible to receive an International Driving Permit (IDP) in India and how long is it valid?
+        answer: |
+          IDPs in India are issued only to Indian citizens. The permit is valid for one year from the date of issue or until the domestic licence expires, whichever is earlier.
+  - context: |
+      This section deals with vehicle identification and regulatory bodies in the Indian automobile sector.
+    questions_and_answers:
+      - question: |
+          What is a High‑Security Number Plate?
+        answer: |
+          It is a tamper‑proof number plate with a chromium‑based hologram, a unique laser‑etched identification number, and retro‑reflective sheeting that helps prevent vehicle identity fraud and theft.
+      - question: |
+          Which ministry regulates the automobile industry in India?
+        answer: |
+          The Ministry of Road Transport & Highways (MoRTH) is the nodal agency responsible for formulating and implementing provisions of the Motor Vehicles Act and Central Motor Vehicle Rules.
+      - question: |
+          What is the role of SIAM in the Indian automobile sector?
+        answer: |
+          The Society of Indian Automobile Manufacturers (SIAM) is the apex body representing vehicle and engine manufacturers. Registered under the Societies Registration Act 1860, it works on policy advocacy, safety, and sustainable growth of the automotive industry.
+document_outline: |
+  This knowledge document consolidates frequently‑asked questions and answers about automobile and transportation procedures in India.  
+  It covers topics such as:
+    • Vehicle registration (new, address change, inter‑state re‑registration)  
+    • Ownership transfer—including after death of the owner  
+    • Endorsement and removal of hypothecation  
+    • No‑Objection Certificates and re‑registration after 15 years  
+    • Driving‑licence categories, fee structure, and International Driving Permits  
+    • High‑Security Number Plates and key regulatory bodies (MoRTH, SIAM)  
+  The content is intended to help vehicle owners and stakeholders navigate statutory requirements under the Motor Vehicles Act and Central Motor Vehicle Rules.
+document:
+  repo: https://github.com/sankapoo/taxonomy-knowledge-docs-transportation.git
+  commit: 618cd96d434641a9b633ec49fcc89b78ce601997
+  patterns:
+    - transportation.md
+    - "automobile/transportation/*.md"
